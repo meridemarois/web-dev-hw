@@ -1,0 +1,4 @@
+- Data travels the internet by disassembling information into packets and sending them separately through different channels of the network.
+- DNS or domain name system translates URLs into IP addresses, which means it directs information from the web to the correct computers.
+- A cookie makes it so that websites can remember information about your computer, such as login information. It streamlines the login process for that website and remembers your account information to tailor the experience more to you.
+- URLs are composed by a protocol, a domain name, and a path.
