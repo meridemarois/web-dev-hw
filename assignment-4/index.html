@@ -9,10 +9,8 @@
       img, figure, figcaption, table {text-align:center;font-style:italic;margin:auto}
       div {width:32%;display:inline-block;vertical-align:text-top;}
       table, td, th {
-      /* -- Step 16 -- */
-
-
-
+        border: 2 px, solid gray, collapse;
+        padding: 5px;
       }
     </style>
   </head>
@@ -163,15 +161,17 @@
                 <td>0/60</td>
             </tr>
           </table>
-
+          <input type="text" name="username" id="username-text" />
+          <input type="password" name="password" id="password-text" />
         <!-- Step 19 -->
         <table>
 
         </table>
         <p>Yes! Sign me up for weekly e-mail alerts.
-
+          <input type="checkbox" name="newsletter" value="yes" checked />
+          <input type="submit" name="submit" value="submit" />
         </p>
-
+    </fieldset>
     </form>
     </main>
     <!-- Step 20 -->
