@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--TODO: Change title to what you want-->
+    <title>Assignment 2</title>
+
+    <!-- TODO: Change content below to suit your project...-->
+    <meta charset="UTF-8">
+    <meta name="description" content="CHANGE ME">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style type="text/css">
+        /*NavBar CSS*/
+        .nav {
+            background: yellow;
+        }
+        .nav-item {
+            padding: 0 5px 0 5px;
+            display: inline;
+            font-size: 125%;
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: grey;
+        }
+
+        /*Main Body CSS*/
+        .content {
+            /* If you want the text to be tighter in to the center, increase both 15s by like 5... */
+            margin: 0 15% 0 15%;
+            padding: 10px 0 10px;
+        }
+        #introduction {
+            text-align: center;
+        }
+        #intro-table {
+            display: inline-block;
+        }
+        #jump-tags {
+            list-style-type: none;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        h3 {
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+<div id="navigation" class="nav">
+    <ul id="nav-list" class="nav">
+        <li class="nav nav-item"><a href="index.html" class="nav-item">Home</a></li>
+        <li class="nav nav-item"><a href="about.html" class="nav-item">About</a></li>
+        <li class="nav nav-item"><a href="contact.html" class="nav-item">Contact</a></li>
+    </ul>
+</div>
+<div id="introduction" class="content">
+    <h1 id="title">Meri's Magical Mac n' Cheese</h1>
+    <table id="intro-table">
+        <tr>
+            <td><b>Difficulty</b></td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td><b>Prep Time</b></td>
+            <td>15 Minutes</td>
+        </tr>
+        <tr>
+            <td><b>Cooking Time</b></td>
+            <td>1 Hour</td>
+        </tr>
+        <tr>
+            <td><b>Total Time</b></td>
+            <td>1.25 Hours</td>
+        </tr>
+    </table>
+    <!--TODO: Add writing here about how awesome and fulfilled people will be after making your mac and cheese-->
+    <p id="intro-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac eros id augue condimentum auctor iaculis eu ipsum. Suspendisse at molestie lorem, ac mollis quam. Aenean porta imperdiet dui, eu gravida nisi suscipit a. Nunc id purus sed odio sagittis convallis. Suspendisse eros eros, pretium condimentum urna porta, vehicula ultrices mauris. Aenean suscipit imperdiet hendrerit. Quisque in cursus mauris, ac porttitor risus.
+    </p>
+    <img src="../Images/stepthree.jpg" alt="Finished Product">
+    <ul id="jump-tags">
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#instructions">Instructions</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+</div>
+<div id="ingredients" class="content">
+    <h2>What You'll Need</h2>
+    <p>
+        Sed quis tortor quam. Mauris consequat, nibh vel accumsan suscipit, neque diam tempus ligula, sed luctus ex ante
+        a ipsum. Phasellus ut massa dignissim, hendrerit erat non, cursus magna. Sed finibus massa orci, id sagittis
+        nisi mollis fermentum. Sed elementum, leo porttitor vulputate lobortis, metus magna facilisis tortor, sit amet
+        finibus orci lectus id turpis. Donec nec malesuada ipsum, quis posuere erat.
+    </p>
+    <ul id="ingredient-list">
+        <li class="ingredient-item">Item 1</li>
+        <li class="ingredient-item">Item 2</li>
+        <li class="ingredient-item">Item 3</li>
+        <li class="ingredient-item">Item 4</li>
+        <li class="ingredient-item">Item 5</li>
+    </ul>
+    <p>In addition to ingredients, you also need the following tools</p>
+    <ul id="untensil-list">
+        <li class="ingredient-item">Item 1</li>
+        <li class="ingredient-item">Item 2</li>
+        <li class="ingredient-item">Item 3</li>
+        <li class="ingredient-item">Item 4</li>
+        <li class="ingredient-item">Item 5</li>
+    </ul>
+
+
+</div>
+<!--TODO: replace all the latin as well as the titles. Looks like the teacher also wants semantic markup, so throw some -->
+<!--<b></b>, <i></i>, <strike></strike>, etc... in there.-->
+
+<!--TODO: Add the Images where they should go in the instructions. I've placed the tags where they should be.-->
+<div id="instructions" class="content">
+    <h2>Making The Mac</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum diam in accumsan bibendum. Aenean congue
+        tortor at est faucibus, eget porttitor tortor scelerisque. Vestibulum fringilla tellus et enim fringilla
+        imperdiet ut eu risus. Cras suscipit auctor quam, ut sodales lorem. Donec volutpat et nibh non finibus. Nulla
+        sapien ante, pulvinar eget scelerisque eget, elementum vitae enim. Duis rhoncus nibh ut elementum vulputate.
+        Nullam consectetur pretium urna. Pellentesque ac velit in risus commodo imperdiet ac ac dolor. Pellentesque
+        vulputate facilisis tempor. Nunc gravida eu lorem vitae vehicula. Morbi fringilla sit amet nisl non tincidunt.
+        Nulla sit amet eros dapibus, mattis ex sed, sodales nibh. Sed iaculis pulvinar nisi, non pharetra odio semper
+        sit amet.
+    </p>
+
+    <h3>Step 1</h3>
+    <p>
+        Etiam posuere non odio id fermentum. Curabitur eu justo augue. Quisque accumsan nisl nec ex pulvinar, sit amet
+        congue felis tincidunt. Nam faucibus vestibulum semper. Sed hendrerit justo felis, eu mattis arcu porttitor
+        quis. Etiam ac tortor enim. Duis tempus egestas nisl, eget vestibulum felis efficitur eget. Vestibulum sit amet
+        feugiat magna. Nullam tempor risus ut diam maximus, condimentum mattis ante fringilla. Quisque eu purus
+        convallis, ullamcorper arcu vel, eleifend mauris. Suspendisse pellentesque posuere aliquam.
+    </p>
+    <img src="../Images/stepone.jpg" alt="Boiling the pasta">
+
+    <h3>Step 2</h3>
+    <p>
+        Sed finibus lacinia lectus, nec posuere eros hendrerit et. Phasellus tincidunt, magna at mollis facilisis,
+        diam tellus mattis dui, et hendrerit lectus tellus vel nulla. Aenean iaculis placerat dolor quis interdum.
+        Nam ligula purus, eleifend vitae urna id, bibendum auctor libero. Morbi faucibus ultricies luctus. Donec a
+        volutpat nulla. Donec vel sem at nulla dictum laoreet nec sed sapien. Etiam luctus lobortis dui, ac efficitur
+        lacus volutpat sed. Sed aliquam maximus convallis. Phasellus ligula lorem, vulputate nec ex quis, fermentum
+        congue lacus. Aenean egestas et diam et pretium. Donec fermentum porta dignissim. Sed eget neque et purus
+        scelerisque auctor. Quisque et est luctus, consectetur nisi eget, pellentesque ipsum.
+    </p>
+    <img src="../Images/steptwo.jpg" alt="Making the roux">
+
+    <h3>Step 3</h3>
+    <p>
+        Vestibulum hendrerit ligula ut tincidunt porttitor. Nullam laoreet nisl leo, auctor posuere metus accumsan eget.
+        Donec nec libero sollicitudin, porttitor eros non, fringilla justo. Pellentesque habitant morbi tristique
+        senectus et netus et malesuada fames ac turpis egestas. In commodo commodo commodo. Nam vitae quam ipsum. Sed
+        venenatis dolor non tellus scelerisque lobortis. Vivamus scelerisque, justo vitae porttitor dictum, lacus nisi
+        vestibulum risus, eget bibendum lectus nisl ac nisl. Curabitur pellentesque sem sit amet tortor blandit, ac
+        varius ex interdum. Mauris interdum magna arcu, vel ultricies mauris facilisis id. Mauris sed odio sit amet
+        quam porta viverra.
+    </p>
+    <img src="../Images/stepthree.jpg" alt="Finished product">
+</div>
+<div id="conclusion" class="content">
+    <h2>Wrapping It All Up</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet elit vitae nulla luctus, a molestie
+        ante feugiat. Nam aliquet sodales orci vitae tristique. Maecenas ultricies massa ut nunc aliquet, nec sagittis
+        eros pellentesque. Vivamus convallis non erat in interdum. Maecenas mollis vel ex vitae congue. Cras enim sem,
+        fermentum bibendum tincidunt in, tempor ut nunc. Maecenas varius ante et maximus accumsan. Vivamus molestie
+        rutrum nunc, eget suscipit quam porta ut. Sed eget justo lorem. Sed consectetur eros mauris, non imperdiet
+        lorem pretium vel. Nunc hendrerit tempus tortor vel bibendum. Class aptent taciti sociosqu ad litora torquent
+        per conubia nostra, per inceptos himenaeos. Integer aliquet porttitor nunc non lobortis. Nam sodales arcu vel
+        accumsan sodales. Nunc tincidunt feugiat orci vitae posuere. Nullam consectetur, tortor eu ultricies lobortis,
+        ligula purus efficitur ipsum, at malesuada magna tortor ut sem.
+    </p>
+
+    <!--TODO: Change this to some Julia Childs shit or something-->
+    <p>In the words of Emeril Lagassi:</p>
+    <blockquote>"Bam"</blockquote>
+</div>
+</body>
+</html>
