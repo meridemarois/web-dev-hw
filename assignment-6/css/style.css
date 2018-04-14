@@ -1,4 +1,14 @@
+body {
+  background-color: rgb(16, 0, 138);
+  color: rgb(255, 123, 255);
+  padding:10px;
+}
+
 .Photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   border-style: double;
   border-width: 3px;
   border-color: white;
@@ -7,6 +17,10 @@
 }
 
 .subject1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   border-style: double;
   border-width: 3px;
   border-color: white;
@@ -15,6 +29,10 @@
 }
 
 .subject2 {
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
   border-style: double;
   border-width: 3px;
   border-color: white;
