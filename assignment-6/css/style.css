@@ -1,0 +1,23 @@
+.Photo {
+  border-style: double;
+  border-width: 3px;
+  border-color: white;
+  padding: 5px;
+  background-color: rgb(70, 23, 180);
+}
+
+.subject1 {
+  border-style: double;
+  border-width: 3px;
+  border-color: white;
+  padding: 5px;
+  background-color: rgb(197, 0, 255);
+}
+
+.subject2 {
+  border-style: double;
+  border-width: 3px;
+  border-color: white;
+  padding: 5px;
+  background-color: rgb(255, 38, 158);
+}
