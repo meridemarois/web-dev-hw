@@ -28,6 +28,12 @@ body {
   background-color: rgb(197, 0, 255);
 }
 
+p.subject1 {
+  border-style: dotted;
+  border-color: white;
+  border-width: thin;
+}
+
 #furby {
   display: block;
   margin-left: auto;
@@ -36,7 +42,12 @@ body {
   border-style: double;
   border-width: 3px;
   border-color: white;
-  opacity: 0.5;
+  opacity: 0.3;
   padding: 5px;
   background-color: rgb(255, 38, 158);
+}
+/* I don't totally know how I'm going to style my furby paragraph yet. */
+#furby~p {
+  background-color: rgb(255, 123, 255)
+  font-weight: bold;
 }
