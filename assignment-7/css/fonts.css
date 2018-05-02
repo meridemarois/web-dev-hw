@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Mr De Haviland';
-  src: url(../fonts/MrDeHaviland.ttf) format('opentype');
+  src: url(../fonts/MrDeHaviland-Regular.ttf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Crimson Text';
-  src: url(../fonts/CrimsonText.ttf) format('opentype');
+  src: url(../fonts/CrimsonText-Regular.ttf) format('opentype');
   font-weight: normal;
   font-style: normal;
 }
