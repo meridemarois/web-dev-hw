@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(165, 130, 46);
+}
+
+.Title {
+  color: rgb(96, 17, 28);
+  font-family:'Mr De Haviland', cursive;
+  text-align: center;
+  font-size: 40pt;
+  line-height: normal;
+}
+
+.Author {
+  color: rgb(96, 17, 18);
+  font-family: 'Mr De Haviland', cursive;
+  text-align: center;
+  font-size: 35pt;
+  line-height: normal;
+}
+
+.Chapter {
+  color: rgb(16, 16, 29);
+  font-family: 'Crimson Text', serif;
+  font-size: 30pt;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.Excerpt {
+  color: rgb(16, 16, 29);
+  font-family: 'Crimson Text', serif;
+  font-size: 20pt;
+  text-align: justify;
+}
+
+.button:hover {
+  color: rgb(96, 17, 28);
+  font-style: oblique;
+}
+
+.button:active {
+  color: rgb(96, 17, 28);
+  background-color: inherit;
+  border-color: rgb(16, 16, 29);
+  border-width: 10pt;
+}
+
+.button:visited {
+  color: rgb(16, 16, 29);
+  background-color: rgb(96, 17, 28);
+}
