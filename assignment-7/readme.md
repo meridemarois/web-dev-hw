@@ -8,4 +8,4 @@ Should your chosen font fail to load, it's encouraged that you provide a list of
 
 I really liked this assignment, I'm much more interested in how CSS works than other languages, just because I'm interested in design. I particularly had trouble figuring out fonts, and I know for a fact the handwriting one I chose isn't coming through. However, it's one in the morning and I have an exam tomorrow, so it's going to have to stay how it is. I wouldn't mind going over embedding fonts and font-face rules to clarify exactly how the process should go, since that was what I had the most trouble with in this assignment. I did not post any issues or help any classmates, for lack of time during this part of the semester.
 
-![Assignment 7](.photos/assignment-7.png)
+![Assignment 7](./images/assignment-7.png)
