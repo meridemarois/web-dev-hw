@@ -1,0 +1,21 @@
+body {
+  background-color: #FEFFF7
+}
+
+.box1 {
+  margin-left: 40%
+  width: 400px
+  height: 400px
+}
+
+.box2 {
+  margin-right: 40%
+  width: 200px
+  height: 400px
+}
+
+.box3 {
+  margin-left: 40%
+  width: 400px
+  height: 400px
+}
